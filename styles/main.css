@@ -49,3 +49,11 @@ p {
   cursor: pointer;
   background-color: rgb(157, 255, 0);
 }
+
+#avatar {
+  width: 30%
+}
+
+#avatar.hover {
+  width: 33%
+}
