@@ -51,8 +51,15 @@ p {
 }
 
 #avatar {
-  width: 42%
+  width: 42%;
+  height: 42%;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
 }
 
 #avatar.hover {
+  transition: 0.9s;
+  transform: rotateY(180deg);
 }
+
