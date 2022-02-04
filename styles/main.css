@@ -22,14 +22,14 @@ body {
 h1 {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 5em;
+  font-size: 8em;
   letter-spacing: -0.04em;
 }
 
 p {
   color: #6cbd70;
   font-family: "Comfortaa", cursive;
-  font-size: 1.5em;
+  font-size: 2em;
   margin: 15px 0;
 }
 
@@ -41,7 +41,7 @@ p {
   color: white;
   padding: 15px;
   border-radius: 50%;
-  width: 3rem;
+  width: 5rem;
   filter: invert(1);
 }
 
@@ -51,9 +51,8 @@ p {
 }
 
 #avatar {
-  width: 30%
+  width: 42%
 }
 
 #avatar.hover {
-  width: 33%
 }
