@@ -22,15 +22,15 @@ body {
 h1 {
   color: white;
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 9em;
-  letter-spacing: -0.04em;
+  font-size: 6rem;
+  letter-spacing: -0.2rem;
 }
 
 p {
   color: #6cbd70;
   font-family: "Comfortaa", cursive;
-  font-size: 2em;
-  margin: 15px 0;
+  font-size: 1.5rem;
+  margin: .4rem 0;
 }
 
 .divider {
@@ -39,9 +39,9 @@ p {
 
 .icon {
   color: white;
-  padding: 15px;
+  padding: 0.6rem;
   border-radius: 50%;
-  width: 4rem;
+  width: 3rem;
   filter: invert(1);
 }
 
@@ -51,15 +51,16 @@ p {
 }
 
 #avatar {
-  width: 42%;
-  height: 42%;
+  width: 10rem;
+  height: 10rem;
   position: relative;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
+  transition: transform .6s ease-in-out;
 }
 
-#avatar.hover {
-  transition: 0.9s;
-  transform: rotateY(180deg);
+
+
+#avatar:hover {
+  transform: rotate(720deg);
 }
+
 
